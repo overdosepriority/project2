@@ -1,0 +1,44 @@
+.menu{
+    display: flex;
+    margin: 200px;
+    justify-content: center;
+    font-size: 29px;
+}
+
+.menu li{
+    width: 200px;
+    list-style: none;
+    background: black;
+    position: relative;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    display: black;
+    text-align: center;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    transition: all .5s;
+}
+.menu ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    padding: 0;
+}
+
+.menu li:hover ul{
+    display: block;
+}
+*{
+    background: black;
+    font-family: cursive;
+}
+#name{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
